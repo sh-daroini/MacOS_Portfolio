@@ -114,7 +114,7 @@ const techStack = [
   },
   {
     category: "Database",
-    items: ["MongoDB"],
+    items: ["PostgreSQL"],
   },
   {
     category: "Dev Tools",
@@ -227,7 +227,7 @@ const WORK_LOCATION = {
   children: [
     // ▶ Project 1
     {
-      id: 5,
+      id: 1,
       name: "Movie Website Application",
       icon: "/images/folder.png",
       kind: "folder",
@@ -247,7 +247,7 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "movies-drab.vercel.app",
+          name: "movie-website.app",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -260,7 +260,7 @@ const WORK_LOCATION = {
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-10 left-40",
+          position: "top-10 left-45",
           imageUrl: "/images/movie-poster.png",
         },
         // {
@@ -277,7 +277,7 @@ const WORK_LOCATION = {
 
     // // ▶ Project 2
     {
-      id: 6,
+      id: 2,
       name: "Todo Application",
       icon: "/images/folder.png",
       kind: "folder",
@@ -300,12 +300,12 @@ const WORK_LOCATION = {
         },
                 {
           id: 2,
-          name: "todo-app.vercel.app",
+          name: "todo-app.app",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
           href: "https://todo-app-react-beta-two.vercel.app/",
-          position: "top-40 left-5",
+          position: "top-40 left-30",
         },
         {
           id: 4,
@@ -313,64 +313,54 @@ const WORK_LOCATION = {
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-10 left-40",
+          position: "top-10 left-60",
           imageUrl: "/images/todo-app.png",
         },
       ],
     },
 
-    // // ▶ Project 3
-    // {
-    //   id: 7,
-    //   name: "Food Delivery App",
-    //   icon: "/images/folder.png",
-    //   kind: "folder",
-    //   position: "top-10 left-80",
-    //   windowPosition: "top-[33vh] left-7",
-    //   children: [
-    //     {
-    //       id: 1,
-    //       name: "Food Delivery App Project.txt",
-    //       icon: "/images/txt.png",
-    //       kind: "file",
-    //       fileType: "txt",
-    //       position: "top-5 left-10",
-    //       description: [
-    //         "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-    //         "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-    //         "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-    //         "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
-    //       ],
-    //     },
-    //     {
-    //       id: 2,
-    //       name: "food-delivery-app.com",
-    //       icon: "/images/safari.png",
-    //       kind: "file",
-    //       fileType: "url",
-    //       href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
-    //       position: "top-10 right-20",
-    //     },
-    //     {
-    //       id: 4,
-    //       name: "food-delivery-app.png",
-    //       icon: "/images/image.png",
-    //       kind: "file",
-    //       fileType: "img",
-    //       position: "top-52 right-80",
-    //       imageUrl: "/images/project-3.png",
-    //     },
-    //     {
-    //       id: 5,
-    //       name: "Design.fig",
-    //       icon: "/images/plain.png",
-    //       kind: "file",
-    //       fileType: "fig",
-    //       href: "https://google.com",
-    //       position: "top-60 right-20",
-    //     },
-    //   ],
-    // },
+    // ▶ Project 3
+    {
+      id: 3,
+      name: "Expense Tracker Application",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-75",
+      windowPosition: "top-[33vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "Expense Tracker App Project.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-10 left-10",
+          description: [
+            "Our Expense Tracker App is a convenient way to track your Expense.",
+            "Think of it like your personal assistant to track your finances. Just name your list, give how much money u got or u cost, and it will calculate and show your balance, income, and expenses.",
+            "Built with React and vite — fast, lightweight, and fully responsive."
+          ],
+        },
+        {
+          id: 2,
+          name: "expense-tracker.app",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://expense-tracker-react-sigma-wine.vercel.app/",
+          position: "top-10 left-55",
+        },
+        {
+          id: 4,
+          name: "Expense-Tracker-App.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-50 right-80",
+          imageUrl: "/images/expense-tracker.png",
+        },
+      ],
+    },
   ],
 };
 
@@ -388,7 +378,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/syaihan.jpg",
+      imageUrl: "/images/syaihan5.jpg",
     },
     {
       id: 2,
@@ -399,15 +389,6 @@ const ABOUT_LOCATION = {
       position: "top-28 right-72",
       imageUrl: "/images/syaihan-2.jpg",
     },
-    // {
-    //   id: 3,
-    //   name: "locked-in-me.png",
-    //   icon: "/images/image.png",
-    //   kind: "file",
-    //   fileType: "img",
-    //   position: "top-20 left-80",
-    //   imageUrl: "/images/syaihan-3.jpg",
-    // },
     {
       id: 4,
       name: "about-me.txt",

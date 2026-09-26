@@ -15,7 +15,7 @@ const Contact = () => {
 
         <h3>Let's Connect</h3>
         <p>Got an idea? A bug to squash? Or just wanna talk tech? I'm in.</p>
-        <p>daroen662@gmail.com</p>
+        <p>sh.daroini@gmail.com</p>
 
         <ul>
           {socials.map(({ id, bg, link, icon, text }) => (

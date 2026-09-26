@@ -4,7 +4,7 @@ import WindowWrapper from "../hoc/WindowWrapper"
 import WindowControls from "../components/WindowControls"
 
 const Terminal = () => {
-  return <>
+  return <div className="bg-white">
     <div id="window-header">
       <WindowControls target='terminal'/>
       <h2>Texh Stack</h2>
@@ -46,9 +46,10 @@ const Terminal = () => {
         </p>
       </div>
     </div>
-  </>
+  </div>
 }
 
 const TerminalWindow = WindowWrapper(Terminal, 'terminal')
 
 export default TerminalWindow
+// export default Terminal
