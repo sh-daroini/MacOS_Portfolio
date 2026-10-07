@@ -278,7 +278,7 @@ const WORK_LOCATION = {
     // // ▶ Project 2
     {
       id: 2,
-      name: "Todo Application",
+      name: "Task-Management-React App",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-40",
@@ -286,7 +286,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Todo Application Project.txt",
+          name: "Task-Management-React App Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -294,27 +294,35 @@ const WORK_LOCATION = {
           description: [
             "A clean daily task manager built to keep you focused and organized.",
             "Easily add, complete, and delete tasks with a smooth and minimal interface.",
-            "Designed with a calm indigo palette and thoughtful typography for a pleasant everyday experience.",
             "Built with React, Tailwind CSS v4, and Vite — fast, lightweight, and fully responsive.",
           ],
         },
                 {
           id: 2,
-          name: "todo-app.app",
+          name: "Task-Management-React.app",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://todo-app-react-beta-two.vercel.app/",
+          href: "https://task-management-react-azure.vercel.app/",
           position: "top-40 left-30",
         },
         {
+          id: 5,
+          name: "todolist.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-50 left-60",
+          imageUrl: "/images/todolist.png",
+        },
+        {
           id: 4,
-          name: "todo-app.png",
+          name: "dashboard.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-10 left-60",
-          imageUrl: "/images/todo-app.png",
+          imageUrl: "/images/dashboard.png",
         },
       ],
     },
